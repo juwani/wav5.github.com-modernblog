@@ -12,8 +12,8 @@
 
 .card__container {
 	position: fixed;
-	top: 0;
-	left: 0;
+	top: 50;
+	left: 50;
 	overflow-x: hidden;
 	overflow-y: auto;
 	width: 100%;
@@ -22,7 +22,7 @@
 }
 
 .card__container--closed {
-	position: absolute;
+	position: hidden;
 	overflow: hidden;
 }
 
