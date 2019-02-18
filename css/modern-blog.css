@@ -22,7 +22,7 @@
 }
 
 .card__container--closed {
-	position: auto; /*absolute*/
+	position: absolute;
 	overflow: hidden;
 }
 
