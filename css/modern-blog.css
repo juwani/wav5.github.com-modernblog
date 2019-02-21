@@ -22,12 +22,12 @@
 }
 
 .card__container--closed {
-	position: hidden;
+	position: absolute;
 	overflow: hidden;
 }
 
 .card__image {
-	position: hidden;
+	position: absolute;
 	top: 0;
 	left: 0;
 	display: hidden;
@@ -36,7 +36,7 @@
 }
 
 .card__container--closed .card__image {
-	position: hidden;
+	position: absolute;
 	cursor: hidden;
 }
 /* Fix IE */
@@ -46,7 +46,7 @@
 }
 
 .card__content {
-	position: relative;
+	position: hidden;
 	width: 100%;
 	max-width: 800px;
 	height: auto;
