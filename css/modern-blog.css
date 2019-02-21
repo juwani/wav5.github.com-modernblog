@@ -22,7 +22,7 @@
 }
 
 .card__container--closed {
-	position: absolute;
+	position: hidden;
 	overflow: hidden;
 }
 
@@ -115,7 +115,7 @@
 
 .card__btn-close {
 	font-size: 18px;
-	position: absolute;
+	position: hidden;
 	top: 0;
 	right: 0;
 	padding: 36px;
